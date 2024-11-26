@@ -6,26 +6,24 @@
       "type": "object",
       "properties": [
         {
-          "name": "New Field",
+          "name": "Type",
           "hackoladeMeta": {},
           "isActivated": true,
           "type": "string",
           "GUID": "40d65a88-0177-4747-9c8d-9c0973bd5cde",
-          "error": {
-            "name": false,
-            "code": false
-          }
+          "code": "Type",
+          "required": true,
+          "error": {}
         },
         {
-          "name": "New Field1",
+          "name": "Name",
           "hackoladeMeta": {},
           "isActivated": true,
           "type": "string",
           "GUID": "ca04b135-07c4-4a1e-9c5b-179a6e8bfbdb",
-          "error": {
-            "name": false,
-            "code": false
-          }
+          "code": "Descriptive name",
+          "required": true,
+          "error": {}
         },
         {
           "name": "New Field2",
@@ -89,8 +87,8 @@
   "idToNameHashTable": {
     "5230e02d-9e24-48ef-aa34-e4563ee5452a": "Eule",
     "8862dae2-c282-428f-b63d-dfda16ee7a7f": "DataCenter",
-    "40d65a88-0177-4747-9c8d-9c0973bd5cde": "New Field",
-    "ca04b135-07c4-4a1e-9c5b-179a6e8bfbdb": "New Field1",
+    "40d65a88-0177-4747-9c8d-9c0973bd5cde": "Type",
+    "ca04b135-07c4-4a1e-9c5b-179a6e8bfbdb": "Name",
     "1e1fb732-b3b7-4dc8-acc2-c8398f9b34d7": "New Field2"
   },
   "definitions": {
@@ -116,15 +114,16 @@
   "creationTS": "2024-11-20T23:29:28.733Z",
   "GUID": "d2186bed-2b50-45db-b11d-eab8750c3406",
   "isLineageEnabled": false,
-  "lastModifTS": "2024-11-20T23:32:23.760Z",
+  "lastModifTS": "2024-11-24T16:06:48.557Z",
   "persistenceSchemaVersion": "7",
   "isCreatedByPlugin": true,
   "pluginInformation": {
     "pluginEngineVersion": "1.0.0"
   },
   "applicationInformation": {
-    "version": "7.8.5"
+    "version": "7.8.6"
   },
+  "hackoladeMeta": {},
   "settings": {
     "centralPane": {
       "dbLevel": {
@@ -133,7 +132,7 @@
             "GUID": "8862dae2-c282-428f-b63d-dfda16ee7a7f",
             "x": 1144,
             "y": 1091,
-            "width": 179,
+            "width": 185,
             "height": 87,
             "color": {}
           }
